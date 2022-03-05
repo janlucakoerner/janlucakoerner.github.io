@@ -1,79 +1,16 @@
-body {
-    background-color: lightgray;
-    color: rgb(70, 70, 70);
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+#my_image {
+    width: 500px;
+    float: left;
 }
-
-header {
-    background-color: rgb(200, 200, 200);
+#heading_about_me {
+    text-align: center;
 }
-main {
-    padding-left: 5%;
-    padding-right: 5%;
+#heading_work_school {
+    text-align: center;
 }
-footer {
-    background-color: rgb(200, 200, 200);
-    padding-left: 5%;
-    padding-right: 5%;
+#heading_other_jobs {
+    text-align: center;
 }
-p {
-    text-align: justify;
+#heading_experience_computer_science {
+    text-align: center;
 }
-
-/* #region header*/
-.img_header {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-.div_header {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.h1_header {
-    line-height: 100%;
-}
-.div_header_navigation {
-    display: flex;
-    align-items: center;
-}
-.a_header_navigation {
-    color: rgb(70, 70, 70);
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: 600;
-}
-.a_header_navigation:hover {
-    text-decoration: underline;
-}
-/* #endregion */
-/* #region footer*/
-.div_footer {
-    display: flex;
-    justify-content: space-between;
-}
-.div_footer_navigation {
-    display: flex;
-    align-items: center;
-}
-.a_footer_navigation {
-    color: rgb(70, 70, 70);
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: 600;
-    font-size: small;
-}
-.a_footer_navigation:hover {
-    text-decoration: underline;
-}
-.td_footer_copyright {
-    font-size: small;
-}
-.td_footer_copyrightsign {
-    font-weight: 600;
-    width: 20px;
-}
-/* #endregion */
